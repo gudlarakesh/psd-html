@@ -52,8 +52,7 @@
   }
   .down :hover{
     border-color: red;
-    -webkit-border-radius: 9px;
-            border-radius: 9px;
+    
   }
 
   .data{
@@ -110,6 +109,9 @@
   font-family: 'Lato', sans-serif;
   #carousel-example-generic{
     height: 50vh;
+    .item p{
+      float: right;
+    }
     img{
       height: 50vh;
       background-color: transparent;
@@ -122,5 +124,38 @@
   height: 70vh;
   width: 100vw;
   background-color: #72CCA7;
+  footer p { 
+    color: #fff; 
+    line-height: 30px; 
+    }
+.footer-nav { 
+  list-style: none; 
+  padding: 0; 
+  }
+.footer-nav li a { 
+  display: block; 
+  color: #fff; 
+  padding: 5px; 
+  transition: all 0.5s ease; 
+  -moz-transition: all 0.5s ease; 
+  -webkit-transition: all 0.5s ease; 
+  -o-transition: all 0.5s ease; 
+  }
+.footer-nav li a:hover, .footer-nav li a:focus { 
+  text-decoration: none; 
+  color: #5db3af; }
+.badge-btn { 
+  width: 60px; 
+  height: 62px; 
+  text-indent: -99999px; 
+  display: block; 
+  margin: 65px auto 65px; 
+  -webkit-transition-duration: 3s; 
+  -moz-transition-duration: 3s; 
+  -o-transition-duration: 3s; transition-duration: 3s; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; -o-transition-property: -o-transform; transition-property: transform; }
+.badge-btn:hover, .badge-btn:focus { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); }
+.footer-credit { font-size: 12px; text-transform: uppercase; letter-spacing: 5px; }
+footer a { color: #42817e; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; }
 }
 
