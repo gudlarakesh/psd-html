@@ -22,14 +22,26 @@
     color: white;
     transform: translateY(200%);
   }
-  .btn-primary {
-    display: inline-block;
-    position: absolute;
-    transform: translateX(375%);
-    bottom: 10%;
-    padding: 6px 35px;
-    opacity: 0.7; 
-  }
+  .get-started-btn { 
+    background-color: #7accc8; 
+    padding: 20px 40px; 
+    border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    font-size: 18px; 
+    letter-spacing: 2px; 
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4); 
+    transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -webkit-transition: all 0.5s ease; 
+    -o-transition: all 0.5s 
+    ease; display: inline-block; 
+    transform: translatey(600%);
+ }
+  .get-started-btn:hover, .get-started-btn:focus { 
+    text-decoration: none; 
+    background-color: #e8b968;
+ }
 }
 
 #second{
@@ -50,9 +62,9 @@
     padding: 6px 40px;
     margin-top: 32px;
   }
-  .down :hover{
-    border-color: red;
-    
+  .down .btn:hover, .down .btn:focus{
+    border-color: #fff;
+    transform: translate(0, -10px);
   }
 
   .data{
@@ -67,9 +79,9 @@
 }
 
 #third{
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
-  background-image: url(/images/five.jpg);
+  background-image: url(/images/four.jpg);
   -webkit-background-size: 100% 100%;
        -o-background-size: 100% 100%;
           background-size: 100% 100%;
@@ -86,42 +98,100 @@
 }
 
 #fourth{
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
-  .btn{
-    padding: 6px 35px;
-    transform: translateX(375%);
-    height: 5vh;
-    border-radius: 0;
-    bottom: 20%;
-    position: relative;
+ .features h1 { 
+  color: #9197a8; 
+  font-size: 15px; 
+  margin: 0 0 20px 0; 
+  text-transform: uppercase; 
+  }
+  .features { 
+    background: #fff; 
+    padding: 70px 0; 
+  }
+  .features p { 
+    color: #7a8387; 
+    font-size: 16px; 
+    word-spacing: 2px; 
+    line-height: 30px; 
+  }
+  .features-leftcol { 
+    border-right: 1px solid rgba(208, 217, 226, 0.4);
+    padding-right: 60px; 
+  }
+  .features-rightcol { 
+    padding-left: 60px; 
+  }
+  .try-btn { 
+   background-color: #f69679; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   font-size: 17px; 
+   color: #fff; 
+   transition: all 0.5s ease; 
+   -moz-transition: all 0.5s ease; 
+   -webkit-transition: all 0.5s ease; 
+   -o-transition: all 0.5s ease; 
+   display: inline-block; 
+   padding: 15px 50px; 
+   margin: 70px 0 70px; 
+  }
+  .try-btn:hover, .try-btn:focus { 
+    background-color: #e37857; 
+    color: #fff; 
+    text-decoration: none; 
+  }
+  .margin-bottom { 
+    margin-bottom: 70px; 
   }
 }
 
 #fifth{
-  height:50vh;
+  height:100vh;
   width: 100vw;
-  background-image: url(/images/five.jpg);
-  -webkit-background-size: 100% 100%;
-       -o-background-size: 100% 100%;
-          background-size: 100% 100%;
-  opacity: 0.6;
-  font-family: 'Lato', sans-serif;
-  #carousel-example-generic{
-    height: 50vh;
-    .item p{
-      float: right;
-    }
-    img{
-      height: 50vh;
-      background-color: transparent;
-      text-align: center;
-    }
+ .design h1 { 
+  color: #abbcc3; 
+  font-size: 38px; 
+  font-weight: 300; 
+  margin-top: 0; 
+  }
+ .design { 
+  padding: 100px 0; 
+  background-color: #f6f6f4; 
+  position: relative; 
+  }
+ .design-content p { 
+  color: #abbcc3; 
+  line-height: 30px; 
+  font-weight: 300; 
+  }
+ .flat-box { 
+  background-color: #fff; 
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); 
+  -moz-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); 
+  box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); 
+  transition: all 0.5s ease; 
+  -moz-transition: all 0.5s ease; 
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease; 
+  }
+ .flat-box:hover, .flat-box:focus { 
+  transform: translate(0, -15px); 
+  -webkit-transform: translate(0, -15px); 
+  -o-transform: translate(0, -15px); 
+  -moz-transform: translate(0, -15px); 
+  }
+ .feature-text { 
+  padding: 0px 20px 40px 40px; 
+  font-style: italic; color: #7a8387; 
+  font-size: 16px; 
   }
 }
 
 #sixth{
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
   background-color: #72CCA7;
   footer p { 
