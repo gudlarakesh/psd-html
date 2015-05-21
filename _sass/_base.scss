@@ -1,30 +1,48 @@
-#home{
-  height: 99vh;
-  width: 99vw;
-  background-image: url("../images/Sky.jpg");
-  background-size: 100% 100%;
+.page{
+  height: 100vh;
+  width: 100%;
+}
+#land{
+  background-image: url("/images/land.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  top:0;
-  left:0;
-  right: 0;
+  background-position: center bottom;
   overflow: hidden;
+  position: relative;
+  .main{
+    transform: translateY(35%);
+  }
   h3{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     font-family: 'Lato', sans-serif;
-    transform: translateY(200%);
+    font-weight:100;
   }
   p{
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Lato', sans-serif;
     color: white;
-    transform: translateY(200%);
+    font-style: italic;
+  }
+  .video img{
+    height:99px;
+    width:99px;
+    margin-top: 40px;
+  }
+ 
+  .get_start{
+    position: absolute;
+    left:2vw;
+    right:0;
+    bottom: 7vh;
+    text-align: center;
   }
   .get-started-btn { 
     background-color: #7accc8; 
-    padding: 20px 40px; 
+    color: #fff;
+    padding: 20px 70px;
     border-radius: 3px; 
     -webkit-border-radius: 3px; 
     -moz-border-radius: 3px; 
@@ -36,8 +54,7 @@
     -webkit-transition: all 0.5s ease; 
     -o-transition: all 0.5s 
     ease; display: inline-block; 
-    transform: translatey(600%);
- }
+  }
   .get-started-btn:hover, .get-started-btn:focus { 
     text-decoration: none; 
     background-color: #e8b968;
@@ -46,8 +63,6 @@
 
 #second{
   background-color: #F5AB35;
-  height: 80vh;
-  width: 100vw;
 
   h3{
     font-size: 30px;
@@ -79,8 +94,6 @@
 }
 
 #third{
-  height: 100vh;
-  width: 100vw;
   background-image: url(/images/four.jpg);
   -webkit-background-size: 100% 100%;
        -o-background-size: 100% 100%;
@@ -98,8 +111,6 @@
 }
 
 #fourth{
-  height: 100vh;
-  width: 100vw;
  .features h1 { 
   color: #9197a8; 
   font-size: 15px; 
@@ -149,8 +160,6 @@
 }
 
 #fifth{
-  height:100vh;
-  width: 100vw;
  .design h1 { 
   color: #abbcc3; 
   font-size: 38px; 
@@ -191,8 +200,6 @@
 }
 
 #sixth{
-  height: 100vh;
-  width: 100vw;
   background-color: #72CCA7;
   footer p { 
     color: #fff; 
@@ -214,18 +221,21 @@
 .footer-nav li a:hover, .footer-nav li a:focus { 
   text-decoration: none; 
   color: #5db3af; }
-.badge-btn { 
-  width: 60px; 
-  height: 62px; 
-  text-indent: -99999px; 
-  display: block; 
-  margin: 65px auto 65px; 
-  -webkit-transition-duration: 3s; 
-  -moz-transition-duration: 3s; 
-  -o-transition-duration: 3s; transition-duration: 3s; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; -o-transition-property: -o-transform; transition-property: transform; }
-.badge-btn:hover, .badge-btn:focus { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); }
-.footer-credit { font-size: 12px; text-transform: uppercase; letter-spacing: 5px; }
-footer a { color: #42817e; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
-footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; }
+  .footer-credit { 
+    font-size: 12px; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+  }
+  footer a { 
+   color: #42817e; 
+   transition: all 0.5s ease; 
+   -moz-transition: all 0.5s ease; 
+   -webkit-transition: all 0.5s ease; 
+   -o-transition: all 0.5s ease; 
+  }
+  footer a:hover, footer a:focus { 
+    color: #2f5c5a; 
+    text-decoration: none; 
+  }
 }
 
