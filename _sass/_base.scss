@@ -89,12 +89,18 @@
   .btn{
     background-color: transparent;
     color: #fff;
-    padding: 6px 40px;
+    padding: 15px 70px;
     margin-top: 32px;
+    border-color: #FFF;
+    font-size:17px;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    position:absolute;
   }
-  .down .btn:hover, .down .btn:focus{
-    border-color: #fff;
-    transform: translate(0, -10px);
+  .down .btn:hover{
+    border-color: #a58347;
+    color: #a58347;
+    border: 2px solid #a58347;
   }
 
   .data{
@@ -103,7 +109,7 @@
   .photo img{
     right:0;
     height: 100vh;
-    width: 50vw;
+    width: 40vw;
     float: right;
     top:0;
     display: inline-block;
@@ -123,27 +129,26 @@
   font-family: 'Lato', sans-serif;
   .carousel-inner{
      height:60vh;
-     .item img{
+     .item {
       text-align: center;
+      margin-top: 6em;
+     }
+     .item img{
       height:99px;
       width:99px;
-      position:absolute;
-      left: 45%;
-      transform: translateY(50%);
+      display: inline-block;
       }
-  .carousel-caption p{
-    font-size:43px;
+  .carousel-caption{
+      font-size: 3em;
       font-weight: 100;
-      text-align: center;
       font-style: italic;
-      position: absolute;
-      bottom: -50vh;
+      position: static;
     }
   }
 
 }
 
-#fourth{
+#features{
  .features h1 { 
   color: #9197a8; 
   font-size: 15px; 
@@ -192,7 +197,7 @@
   }
 }
 
-#fifth{
+#design{
  .design h1 { 
   color: #abbcc3; 
   font-size: 38px; 
@@ -228,13 +233,42 @@
  .feature-text { 
   padding: 0px 20px 40px 40px; 
   font-style: italic; color: #7a8387; 
-  font-size: 16px; 
+  font-size: 12px; 
+  letter-spacing: 2px;
+  font-weight: 100;
+  }
+  .flat-box .title{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #9197a8;
+    letter-spacing: 2px;
+    font-weight: 600;
+    
+  }
+  .colourway { 
+    height: 346px; 
+  }
+  .colour1 { 
+      background-color: #f69679; 
+  }
+  .colour2 { 
+    background-color: #e8b968; 
+  }
+  .colour3 { 
+    background-color: #7accc8; 
+  }
+  .colour4 { 
+    background-color: #373b44; 
+  }
+  .fa{
+    color: #555;
   }
 }
 
-#sixth{
+#footer{
   background-color: #72CCA7;
-  footer p { 
+  p { 
     color: #fff; 
     line-height: 30px; 
     }
