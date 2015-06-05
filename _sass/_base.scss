@@ -3,7 +3,7 @@
   width: 100%;
 }
 #land{
-  background-image: url("/images/land.jpg");
+  background-image: url("../images/land.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -118,7 +118,7 @@
 }
 
 #details{
-  background-image: url("/images/about.jpg");
+  background-image: url("../images/about.jpg");
   -webkit-background-size: 100% 100%;
        -o-background-size: 100% 100%;
           background-size: 100% 100%;
