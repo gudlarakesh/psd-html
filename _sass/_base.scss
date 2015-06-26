@@ -1,5 +1,6 @@
 .page{
   min-height: 100vh;
+  height:100vh;
   width: 100%;
   overflow: visible;
 }
@@ -11,7 +12,9 @@
   overflow: hidden;
   position: relative;
   .main{
-    transform: translateY(35%);
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
   }
   h3{
     text-align: center;
@@ -77,12 +80,13 @@
   background-color: #F4B350;
   h3{
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 300;
   }
   p{
     font-size: 16px;
     line-height: 30px;
     margin-top: 4em ;
+    font-weight: 400;
   }
 
   .btn{
@@ -96,10 +100,8 @@
     border: 2px solid #fff;
     position:absolute;
   }
-  .down .btn:hover{
-    border-color: #a58347;
-    color: #a58347;
-    border: 2px solid #a58347;
+  .down a:hover{
+    background-color: rgba(255,255,255,0.2);
   }
 
   .data{
@@ -126,8 +128,16 @@
   width: 100%;
   height: 70vh;
   font-family: 'Lato', sans-serif;
+  
+  > .container{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    ol .carousel-indicators{
+      bottom: -20px;
+    }
+  }
   .carousel-inner{
-     height:60vh;
      .item {
       text-align: center;
       margin-top: 6em;
@@ -185,7 +195,7 @@
    -o-transition: all 0.5s ease; 
    display: inline-block; 
    padding: 15px 50px; 
-   margin: 70px 0 70px 35px; 
+   margin: 70px 0 70px 87px; 
   }
   .try-btn:hover, .try-btn:focus { 
     background-color: #e37857; 
